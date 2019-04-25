@@ -8,11 +8,11 @@ HashMap 인스턴스를 만든 다음 put() 메소드를 통해 productPrice에 
 그리고 get() 메소드에 Key를 입력해 가지고 있는 해당 Value를 가져올 수 있다.
 
 1. print all the keys
-모든 Key를 가져오기 위해서 Set 인터페이스에 productPrice.keySet()를 담고
+ : 모든 Key를 가져오기 위해서 Set 인터페이스에 productPrice.keySet()를 담고
 for문과 forEach문을 통해 모든 Key를 불러온다.
 
 2. print all the values
-values() 메소드를 통해 인스턴스의 Value를 추출하고 forEach를 통해 모든 Value를 출력한다.
+ : values() 메소드를 통해 인스턴스의 Value를 추출하고 forEach를 통해 모든 Value를 출력한다.
 
 3. print all the key and value
-entrySet() 메소드를 이용해서 몯ㄴ 데이터를 한번식 접근하여 Key와 Value를 가져온다.
+ : entrySet() 메소드를 이용해서  데이터를 한번식 접근하여 Key와 Value를 가져온다.
